@@ -1,0 +1,24 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local window = kavoUi.CreateLib("BysusKhmer","BloodTheme")
+ 
+---Hi
+ 
+local Tab1 = window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Squid Game ")
+--
+ 
+Tab1Section:NewButton("Button!","FlyJump",function()
+ 
+if infjumpenabled == false then
+			infjumpenabled = true
+			script.Parent.Text = "Enabled"
+ 
+end) 
+
+Tab1Section:NewButton("Button!","Become Guard"",function()
+
+if infjumpenabled == ture then
+			infjumpenabled = false
+			script.Parent.Text = "Enabled"
+
+end) 
