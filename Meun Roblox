@@ -9,16 +9,14 @@ local Tab1Section = Tab1:NewSection("Squid Game ")
  
 Tab1Section:NewButton("Button!","FlyJump",function()
  
-if infjumpenabled == false then
-			infjumpenabled = true
-			script.Parent.Text = "Enabled"
+if infjumpenabled == true then
+			infjumpenabled = false
  
 end) 
 
 Tab1Section:NewButton("Button!","Become Guard"",function()
 
-if infjumpenabled == ture then
-			infjumpenabled = false
-			script.Parent.Text = "Enabled"
+if infjumpenabled == false then
+			infjumpenabled = true
 
 end) 
